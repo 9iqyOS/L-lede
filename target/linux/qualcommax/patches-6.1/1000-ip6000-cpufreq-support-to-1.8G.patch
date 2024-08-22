@@ -1,0 +1,44 @@
+diff -Naru a/arch/arm64/boot/dts/qcom/ipq6018.dtsi b/arch/arm64/boot/dts/qcom/ipq6018.dtsi
+--- a/arch/arm64/boot/dts/qcom/ipq6018.dtsi	2024-08-22 10:32:13.007135220 +0800
++++ b/arch/arm64/boot/dts/qcom/ipq6018.dtsi	2024-08-22 10:33:13.932291182 +0800
+@@ -119,35 +119,35 @@
+ 		opp-1320000000 {
+ 			opp-hz = /bits/ 64 <1320000000>;
+ 			opp-microvolt = <862500>;
+-			opp-supported-hw = <0x3>;
++			opp-supported-hw = <0x4>;
+ 			clock-latency-ns = <200000>;
+ 		};
+ 
+ 		opp-1440000000 {
+ 			opp-hz = /bits/ 64 <1440000000>;
+ 			opp-microvolt = <925000>;
+-			opp-supported-hw = <0x3>;
++			opp-supported-hw = <0x4>;
+ 			clock-latency-ns = <200000>;
+ 		};
+ 
+ 		opp-1512000000 {
+ 			opp-hz = /bits/ 64 <1512000000>;
+ 			opp-microvolt = <937500>;
+-			opp-supported-hw = <0x2>;
++			opp-supported-hw = <0x4>;
+ 			clock-latency-ns = <200000>;
+ 		};
+ 
+ 		opp-1608000000 {
+ 			opp-hz = /bits/ 64 <1608000000>;
+ 			opp-microvolt = <987500>;
+-			opp-supported-hw = <0x1>;
++			opp-supported-hw = <0x4>;
+ 			clock-latency-ns = <200000>;
+ 		};
+ 
+ 		opp-1800000000 {
+ 			opp-hz = /bits/ 64 <1800000000>;
+ 			opp-microvolt = <1062500>;
+-			opp-supported-hw = <0x1>;
++			opp-supported-hw = <0x4>;
+ 			clock-latency-ns = <200000>;
+ 		};
+ 	};
